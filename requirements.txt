@@ -1,0 +1,11 @@
+# Core bot library — must include the [job-queue] extra for JobQueue support
+python-telegram-bot[job-queue]>=20.0,<23.0
+
+# Windows COM interface to the local Outlook desktop app (no passwords needed)
+pywin32>=306,<313
+
+# Excel parsing and web scraping
+pandas>=2.0.0
+openpyxl>=3.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
